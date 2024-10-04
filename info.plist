@@ -3,7 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string>link.kaito.material.colors</string>
+	<string>com.jerieljan.twcolors</string>
+	<key>category</key>
+	<string>Tools</string>
 	<key>connections</key>
 	<dict>
 		<key>6C68D0BB-A89A-4FDD-BB99-B5A5B460646E</key>
@@ -15,6 +17,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 			<dict>
 				<key>destinationuid</key>
@@ -23,17 +27,19 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 	</dict>
 	<key>createdby</key>
-	<string>Kaito Watanabe</string>
+	<string>Jeriel Jan del Prado</string>
 	<key>description</key>
-	<string>search google material colors</string>
+	<string>Search Tailwind Color Palettes (Original by Kaito Watanabe)</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>Material colors</string>
+	<string>Tailwind Color Palette</string>
 	<key>objects</key>
 	<array>
 		<dict>
@@ -43,23 +49,35 @@
 				<false/>
 				<key>clipboardtext</key>
 				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<false/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.output.clipboard</string>
 			<key>uid</key>
 			<string>F9D9C756-7F7F-45D4-8E34-8ABB6A77D10C</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
 				<key>argumenttype</key>
 				<integer>1</integer>
 				<key>escaping</key>
 				<integer>127</integer>
 				<key>keyword</key>
-				<string>material</string>
+				<string>tailwind</string>
 				<key>queuedelaycustom</key>
 				<integer>1</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -68,10 +86,18 @@
 				<integer>0</integer>
 				<key>queuemode</key>
 				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
 				<key>script</key>
 				<string>/usr/bin/ruby ./main.rb "{query}"</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>Choices include: Amber, Blue, Cyan, Emerald, Fuchsia, Gray, Green, Indigo, Lime, Neutral, Orange, Pink, Purple, Red, Rose, Sky, Slate, Stone, Teal, Violet, Yellow, Zinc</string>
 				<key>title</key>
-				<string>Material colors</string>
+				<string>Tailwind Colors</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
@@ -82,7 +108,7 @@
 			<key>uid</key>
 			<string>6C68D0BB-A89A-4FDD-BB99-B5A5B460646E</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -91,12 +117,10 @@
 				<false/>
 				<key>onlyshowifquerypopulated</key>
 				<false/>
-				<key>output</key>
-				<integer>0</integer>
 				<key>removeextension</key>
 				<false/>
-				<key>sticky</key>
-				<false/>
+				<key>text</key>
+				<string></string>
 				<key>title</key>
 				<string>Copy to Clipboard "{query}"</string>
 			</dict>
@@ -105,7 +129,7 @@
 			<key>uid</key>
 			<string>DB0619CA-C8BA-4F24-AD24-5800562EF4C7</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 	</array>
 	<key>readme</key>
@@ -114,21 +138,29 @@
 	<dict>
 		<key>6C68D0BB-A89A-4FDD-BB99-B5A5B460646E</key>
 		<dict>
+			<key>xpos</key>
+			<real>120</real>
 			<key>ypos</key>
-			<real>60</real>
+			<real>415</real>
 		</dict>
 		<key>DB0619CA-C8BA-4F24-AD24-5800562EF4C7</key>
 		<dict>
+			<key>xpos</key>
+			<real>520</real>
 			<key>ypos</key>
-			<real>120</real>
+			<real>475</real>
 		</dict>
 		<key>F9D9C756-7F7F-45D4-8E34-8ABB6A77D10C</key>
 		<dict>
+			<key>xpos</key>
+			<real>520</real>
 			<key>ypos</key>
-			<real>10</real>
+			<real>370</real>
 		</dict>
 	</dict>
+	<key>userconfigurationconfig</key>
+	<array/>
 	<key>webaddress</key>
-	<string></string>
+	<string>www.jerieljan.com</string>
 </dict>
 </plist>

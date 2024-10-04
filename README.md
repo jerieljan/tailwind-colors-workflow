@@ -1,9 +1,15 @@
-Material colors Workflow for [Alfred 2](http://www.alfredapp.com)
-==============================
+# Tailwind Colors Workflow for Alfred 5
 
-Material Design Color pallet Alfred workflow
+Easily access the Tailwind color selections listed in https://tailwindcss.com/docs/customizing-colors in Alfred.
 
-**[DOWNLOAD](https://github.com/KaitoWatanabe/alfred-material-colors-workflow/releases/download/1.0/material-colors.alfredworkflow)**
+This workflow was built and tested with Alfred 5, but should also work for past Alfred versions.
 
-![Workflow Screenshot](https://raw.githubusercontent.com/KaitoWatanabe/alfred-material-colors-workflow/master/screenshot.png)
 
+
+
+
+
+
+## Attributions
+
+This workflow was built from the wonderful Material Colors workflow originally written by Kaito Watanabe - https://github.com/KaitoWatanabe/alfred-material-colors-workflow
